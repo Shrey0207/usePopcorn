@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+# usePopcorn
+usePopcorn is a movie information application built using React. This app demonstrates the use of useEffect for data fetching and custom hooks to manage the state and side effects effectively.
+## Table of Contents
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- [About the Project](#about-the-project)
+- [Built With](#built-with)
+- [Getting Started](#getting-started)
+  - [Installation](#installation)
+  - [Usage](#usage)
+- [Features](#features)
+- [Screenshots](#screenshots)
+- [Contact](#contact)
+- [Acknowledgements](#acknowledgements)
 
-## Available Scripts
+  ## About the Project
 
-In the project directory, you can run:
+usePopcorn is a React application that allows users to search for movies and view detailed information about them. It fetches data from an external API and displays it in a user-friendly interface.
 
-### `npm start`
+## Built With
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [React](https://reactjs.org/)
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+To get a local copy up and running, follow these steps.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Installation
 
-### `npm run build`
+Follow these steps to set up the project locally:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. **Clone the repository:**
+    ```bash
+    git clone https://github.com/Shrey0207/react-quiz.git
+    cd react-quiz
+    ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. **Install dependencies:**
+    ```bash
+    npm install
+    ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. **Start the development server:**
+    ```bash
+    npm start
+    ```
 
-### `npm run eject`
+The application should now be running on `http://localhost:3000`.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Features
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Search for movies
+- View detailed information about each movie
+- Responsive design
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Screenshots
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Home Page
+!![Home Page](https://github.com/Shrey0207/usepopcorn/assets/100024162/f7cd65da-3524-4270-a96c-e432d92b95cb)
 
-## Learn More
+### Movie Search
+![Movie Search](https://github.com/Shrey0207/usepopcorn/assets/100024162/9edcf279-ded8-48f6-8be6-b6f758530537)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Movie Details
+![Movie Details](https://github.com/Shrey0207/usepopcorn/assets/100024162/d229567e-61ac-420d-9ba2-248543f82577)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Acknowledgements
 
-### Code Splitting
+- [React](https://reactjs.org/): A JavaScript library for building user interfaces.
+- [Create React App](https://create-react-app.dev/): A tool that sets up a modern web app by running one command.
+- [OpenAI GPT](https://openai.com/): For providing insights and assistance during the development process.
+- [The Ultimate React Course on Udemy](https://example.com/): For the inspiration and learning resources provided.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Contact
 
-### Analyzing the Bundle Size
+For any inquiries or issues, please contact:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- **Name:** Shrey
+- **Email:** [shreytolasaria4297@gmail.com](mailto:shreytolasaria4297@gmail.com)
+- **GitHub:** [Shrey0207](https://github.com/Shrey0207)
+- **LinkedIn:** [LinkedIn Profile](https://www.linkedin.com/in/shrey-tolasaria-176381231/)
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
